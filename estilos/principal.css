@@ -166,6 +166,12 @@ margin-top:25px!important;
 
 /* Media Query for devices with a maximum width of 768px */
 @media (max-width: 768px) {
+   #logo{
+       width: 50%;
+       height: auto;
+   }
+
+    
     .menu {
       margin-top: 35px; /* Adjusted for smaller screens */
     }
