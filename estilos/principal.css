@@ -167,7 +167,7 @@ margin-top:25px!important;
 /* Media Query for devices with a maximum width of 768px */
 @media (max-width: 768px) {
    #logo{
-       width: 50%;
+       width: 60%;
        height: auto;
    }
 
