@@ -166,6 +166,11 @@ margin-top:25px!important;
 
 /* Media Query for devices with a maximum width of 768px */
 @media (max-width: 768px) {
+.inicio{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+    
    #logo{
        width: 60%;
        height: auto;
