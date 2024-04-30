@@ -174,13 +174,14 @@ margin-top:25px!important;
        margin-bottom:20px;
    }
 
-    #avatar{
-       width: 60%;
-       height: auto;
-       margin-top:20px;
-       margin-bottom:20px;
-   }
-
+    #avatar {
+    nmargin: 0 auto;
+    width: 350px;
+    height: auto;
+}
+    .margen{
+    height: 340px!important;
+    }
     
     .menu {
       margin-top: 35px; /* Adjusted for smaller screens */
