@@ -198,7 +198,7 @@ margin-top:25px!important;
     .presentacion1,
     .presentacionmargin,
     .presentacionmargin1 {
-      font-size: 18px !important; /* Smaller font size for smaller screens */
+      font-size: 16px !important; /* Smaller font size for smaller screens */
       line-height: normal; /* Adjust line height */
       margin-top: 20px;
     }
