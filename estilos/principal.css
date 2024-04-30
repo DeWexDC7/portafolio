@@ -1,0 +1,226 @@
+body{
+    background-color: white;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+.presentacion{
+    color: #888;
+    text-align: center;
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px; /* 153.846% */
+    margin-top: 50px;
+}
+
+.presentacion1{
+    color: #888;
+    text-align: center;
+    font-size: 26px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 153.846% */
+    margin-top: 40px;
+}
+
+.avatar{
+    margin-top:15px;
+
+    text-align: center;
+}
+
+.margen{
+    margin-top:15px;
+    background-color: #7E3C79;
+    display: flex;
+    height: 450px;    
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    z-index: 1;
+}
+
+.margin-text{
+    max-width: 100%;
+    
+}
+
+.presentacionmargin
+{    text-align: center;
+
+    margin-top: 70px;
+    color: white;
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: bolder;
+    
+}
+
+.presentacionmargin1
+{    
+    margin-top: 30px;
+    color: white;
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: semi-bold;
+    text-align: center!important;  
+}
+
+.container{
+    width: 1100px;
+
+}
+
+.descarga{
+    text-align: center;
+    margin-top: 50px!important;
+}
+
+.skills{
+    text-align: center;
+    width: 1400px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: outset;
+    margin: 0 auto;
+    z-index: 3;
+    background-color: white;
+    margin-top: -55px;
+}
+
+.skillstext{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+  
+.tituloskills
+{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px !important;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center!important;
+    margin-bottom: 15px;
+}
+
+
+.subtituloskills{
+    font-size: 16px !important;
+}
+.tituloskills1
+{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center!important;
+    margin-bottom: 15px;
+}
+
+.descarga{
+    text-align: center;
+
+}
+.boton{
+background-color: #7E3C79 !important;
+border-color: #7E3C79 !important;
+margin-top:25px!important;
+    margin-bottom: 25px!important;
+}
+
+.trabajos
+{
+    color: #888;
+    text-align: center;
+    font-size: 26px !important;
+    font-weight: bolder;
+    line-height: 40px; /* 153.846% */
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+.vistas{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100% !important;
+
+    
+}
+
+.class .vistas{
+    border-radius: 10px;
+}
+
+.pie{
+    margin-top: 45px;
+}
+
+
+/* Media Query for devices with a maximum width of 768px */
+@media (max-width: 768px) {
+    .menu {
+      margin-top: 35px; /* Adjusted for smaller screens */
+    }
+  
+    .presentacion,
+    .presentacion1,
+    .presentacionmargin,
+    .presentacionmargin1 {
+      font-size: 18px !important; /* Smaller font size for smaller screens */
+      line-height: normal; /* Adjust line height */
+      margin-top: 20px;
+    }
+  .avatar{
+    width: 1px !important;
+    height: auto;
+  
+  }
+
+ 
+    .margen {
+      height: auto; /* Adjust height for smaller screens */
+    }
+  
+    .skills {
+      width: auto; /* Full width on small screens */
+      margin-top: 20px; /* Adjusted margin */
+    }
+  
+    .descarga,
+    .contactame {
+      margin-top: 20px !important;
+    }
+  
+    .vistas {
+      max-width: 100% !important; /* Full width on small screens */
+    }
+  
+    .pie {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Media Query for devices with a maximum width of 576px */
+  @media (max-width: 576px) {
+    .container {
+      width: auto; /* Full width on extra small screens */
+      padding: 0 15px; /* Add padding */
+    }
+  
+    .descarga button,
+    .contactame button {
+      font-size: 14px; /* Smaller font size for buttons */
+    }
+  
+    .skills .row .col {
+      margin-top: 10px; /* Adjust top margin for skill columns */
+    }
+  }
